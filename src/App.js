@@ -10,11 +10,6 @@ export default function App() {
       setPokeList(response.data);
     });
   }, []);
-  // fetch("https://pokeapi.co/api/v2/pokemon?limit=100&offset=200")
-  // .then((response) => response.json())
-  // .then((data) => {
-  //   setPokeList(data);
-  // });
 
   return (
     <div className="App">

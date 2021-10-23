@@ -1,4 +1,31 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.pokeButton {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #008cba;
+  border-radius: 8px;
+}
+
+.pokeButton:focus {
+  background-color: #008cba;
+  color: white;
+}
+
+.pokeButton:hover {
+  background-color: #9ddcf1;
+  color: white;
 }
